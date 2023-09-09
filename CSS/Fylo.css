@@ -192,6 +192,7 @@ header .links li a:hover {
     max-width: 100%;
     background-size: cover;
     background-position: center;
+    margin-top: 60px;
 }
 @media (max-width:767px) {
     .curve {
@@ -506,10 +507,5 @@ footer li:hover {
     }
     .social i:first-of-type {
         margin-left: 0;
-    }
-}
-@media (min-width:1440px) {
-    footer {
-        height: 150vh;
     }
 }
