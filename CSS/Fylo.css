@@ -51,6 +51,7 @@ ul li{
 }
 header {
     padding: 20px;
+    padding-top: 50px;
 }
 header .container{
     display: flex;
@@ -59,7 +60,7 @@ header .container{
 
 }
 header .logo {
-    height: 40px;
+    height: 50px;
 }
 header .links {
     display: flex;
@@ -111,6 +112,11 @@ header .links li a:hover {
     line-height: 1.6;
     margin-bottom: 20px;
     margin-top: 0;
+}
+@media (min-width:1440px) {
+    .landing .container .intro h1 {
+        font-size: 45px;
+    }
 }
 .landing .container .intro p {
     color: #333;
@@ -192,7 +198,7 @@ header .links li a:hover {
     max-width: 100%;
     background-size: cover;
     background-position: center;
-    margin-top: 60px;
+    margin-top: 150px;
 }
 @media (max-width:767px) {
     .curve {
@@ -212,14 +218,19 @@ header .links li a:hover {
     flex-flow: row wrap;
 }
 .stay-pro .container > div {
-    flex-basis: 48%;
+    flex-basis: 49%;
 }
 .stay-pro img {
     max-width: 100%;
 }
 .stay-pro .text h2 {
-    font-size: 33px;
+    font-size: 34px;
     margin-bottom: 30px;
+}
+@media (min-width:1440px) {
+    .stay-pro .text h2 {
+        font-size: 42px;
+    }
 }
 .stay-pro .text > p {
     margin-bottom: 15px;
@@ -508,8 +519,4 @@ footer li:hover {
     .social i:first-of-type {
         margin-left: 0;
     }
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 07970cd2cff8418ebf83f831fff4232a2a889051
+}   
