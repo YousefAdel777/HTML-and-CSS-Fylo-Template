@@ -203,7 +203,7 @@ header .links li a:hover {
 .stay-pro {
     background-color: #f9f8fe;
     padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+    padding-bottom: 100px;
 }
 .stay-pro .container {
     display: flex;
@@ -508,4 +508,8 @@ footer li:hover {
     .social i:first-of-type {
         margin-left: 0;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 07970cd2cff8418ebf83f831fff4232a2a889051
